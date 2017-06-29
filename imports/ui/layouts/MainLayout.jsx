@@ -5,16 +5,20 @@ import Header from './Header.jsx';
 export default class MainLayout extends Component {
 
   render() {
-    return (
+    if(this.props.loading){
+      return (<div>loading...</div>);
+    }
+    else{
+      return (
       <div>
-        <Header />
+        <Header {...this.props}/>
         {this.props.children}
         {/* <Footer /> */}
       </div>
     );
-  }
+   }
+ }
 }
-
 MainLayout.propTypes = {
   currentUser: React.PropTypes.object,
   children: React.PropTypes.element,
