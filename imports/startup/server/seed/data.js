@@ -7,36 +7,42 @@ console.log('inserting data...');
 let data = [{
   name: 'Cali Yogo',
   image: 'https://swchllc.s3.amazonaws.com/photos/cali_yogo-strawberry.jpg',
+  description: 'Strawberry mixed with the popular japanese drink to bring you a refreshing vape',
   price: 15.99,
   flavors: ['strawberry', 'cream']
 },
 {
   name: 'Mango',
   image: 'https://swchllc.s3.amazonaws.com/products/salt/mango/0.png',
+  description: 'Tropical spicy mango flavor',
   price: 19.99,
   flavors: ['mango', 'spicy']
 },
 {
   name: 'Apple Shake',
   image: 'https://swchllc.s3.amazonaws.com/eliquids/milkshake_liquids-apple_shake.png',
+  description: 'Delicious apple milk shake flavor',
   price: 14.99,
   flavors: ['apple', 'milk shake']
 },
 {
   name: 'Modzilla',
   image: 'https://swchllc.s3.amazonaws.com/eliquids/modzilla-_nuclear_fruit_punch.png',
+  description: 'Awesome fruit punch flavor',
   price: 15.99,
   flavors: ['grape', 'cherry', 'fruit punch']
 },
 {
   name: 'Pop Deez',
   image: 'https://swchllc.s3.amazonaws.com/eliquids/steep_vapors-pop_deez.png',
+  description: 'Delicious caramel popcorn for a nutty flavor',
   price: 19.99,
-  flavors: ['ice cream', 'fudge']
+  flavors: ['popcorn', 'caramel']
 },
 {
   name: 'Pow',
   image: 'https://swchllc.s3.amazonaws.com/photos/Binary_E_Liquid-Pow.jpg',
+  description: 'Ice Cream and Fudge flavor',
   price: 19.99,
   flavors: ['ice cream', 'fudge']
 }

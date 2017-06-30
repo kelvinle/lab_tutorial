@@ -11,6 +11,7 @@
     "react": "^15.6.1",
     "react-addons-pure-render-mixin": "^15.6.0",
     "react-dom": "^15.6.1",
-    "react-router": "^2.8.1"
+    "react-router": "^2.8.1",
+    "star-rating-react": "0.0.1"
   }
 }

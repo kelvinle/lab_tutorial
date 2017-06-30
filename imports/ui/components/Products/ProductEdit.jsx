@@ -21,7 +21,7 @@ export default class ProductEdit extends Component {
           volume: volume
         }
 
-      Meteor.call("insertProduct", product, function(error, result){
+      Meteor.call("updateProduct", product._id, updateProduct, function(error, result){
         if(result === 'success'){
                 console.warn("successful");
           }
