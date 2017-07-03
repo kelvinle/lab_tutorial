@@ -10,6 +10,8 @@ import ProductInsert from '/imports/ui/components/Products/ProductInsert.jsx';
 import SignUp from '/imports/ui/pages/SignUp.jsx';
 import SignIn from '/imports/ui/pages/SignIn.jsx';
 import LoginSignUp from '/imports/ui/pages/LoginSignUp.jsx';
+import DropsContainer from '/imports/ui/containers/DropsContainer.jsx';
+
 //we're using react router
 export default () => (
   <Router history={browserHistory}>
@@ -18,6 +20,7 @@ export default () => (
         <Route path="/admin" component={AdminContainer} />
         <Route path="/product/:id" component={ProductContainer} />
         <Route path="/edit/:id" component={ProductEditContainer} />
+        <Route path="/drops" component={DropsContainer} />
         <Route path="/insert" component={ProductInsert} />
         <Route path="/signup" component={SignUp} />
         <Route path="/signin" component={SignIn} />

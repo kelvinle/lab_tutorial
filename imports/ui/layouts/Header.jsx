@@ -18,6 +18,7 @@ export default class Header extends Component {
               <ul className="nav nav-tabs">
                 <li  className="active red"><Link to="/" className = "red">Home</Link></li>
                 <li  className="active red"><Link to="/admin" className = "red">Admin</Link></li>
+                <li ><Link to="/drops">Mass Drops</Link></li>
                 <li ><Link to="/signup">SignUp</Link></li>
                 <li ><Link to="/signin">SignIn</Link></li>
               </ul>

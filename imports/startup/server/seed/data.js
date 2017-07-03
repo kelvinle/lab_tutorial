@@ -45,8 +45,7 @@ let data = [{
   description: 'Ice Cream and Fudge flavor',
   price: 19.99,
   flavors: ['ice cream', 'fudge']
-}
-];
+}];
 
 let checkProducts = Products.find({}).count();
 
